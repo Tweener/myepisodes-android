@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="MyEpisodesTitleBackground">
+        <item name="android:background">@drawable/actionbar_background</item>
+    </style>
+ 
+    <style name="MyEpisodesTheme" parent="android:Theme">
+        <item name="android:windowTitleSize">35dip</item>
+        <item name="android:windowTitleBackgroundStyle">@style/MyEpisodesTitleBackground</item>
+    </style>
+</resources>
