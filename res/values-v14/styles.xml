@@ -1,6 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <style name="MyEpisodesTheme" parent="@android:style/Theme.Holo.Light">
-        <!-- Inherits the Holo theme with no action bar; no other styles needed. -->
-    </style>
+    <style name="MyEpisodesTheme" parent="@android:style/Theme.Holo" />
 </resources>

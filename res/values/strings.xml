@@ -2,13 +2,18 @@
 <resources>
     <string name="app_name">MyEpisodes.com</string>
     
-    <string name="salut">MyEpisodes.com</string>
-    
     <!-- ActionBar -->
     <string name="menu_refresh">Refresh</string>
     <string-array name="action_list">
         <item>Mercury</item>
         <item>Venus</item>
         <item>Earth</item>
+    </string-array>
+    
+    <!-- Home view -->
+    <string-array name="home_fragments">
+        <item>Days backward</item>
+        <item>Today</item>
+        <item>Days forward</item>
     </string-array>
 </resources>

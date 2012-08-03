@@ -7,7 +7,6 @@ import android.widget.ArrayAdapter;
 import android.widget.SpinnerAdapter;
 
 import com.tweener.android.R;
-import com.tweener.android.utils.Message;
 
 /**
  * Main class to all MyEpisodes activities. This is where are defined all commons properties
@@ -45,7 +44,6 @@ public abstract class MyEpisodesActivity extends AbstractActivity
             @Override
             public boolean onNavigationItemSelected(final int position, final long itemId)
             {
-                Message.alertShort(getBaseContext(), "Position: " + position);
                 return true;
             }
         };

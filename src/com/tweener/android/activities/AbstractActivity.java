@@ -1,10 +1,10 @@
 package com.tweener.android.activities;
 
-import android.app.Activity;
+import android.support.v4.app.FragmentActivity;
 
 import com.tweener.android.config.Configuration;
 
-public abstract class AbstractActivity extends Activity
+public abstract class AbstractActivity extends FragmentActivity
 {
     /**
      * Main application activity. This is the first activity launched
